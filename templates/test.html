@@ -1,11 +1,44 @@
+//error in retriveing book data 3/23/23
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Website</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').submit(function(event) {
+                event.preventDefault();
+                var authorName = $('#author').val();
+                $.ajax({
+                    url: 'https://www.googleapis.com/books/v1/volumes',
+                    data: { q: 'inauthor:' + authorName, key: 'AIzaSyDaZ1AwPmvyU2pY17_fCqIh-RS5_ZoOgsQ'},
+                    dataType: 'json',
+                    success: function(data) {
+                        console.log(data);
+                        // Insert the book cover, title, author, and year published into the HTML
+                        $('#bookCover').attr('src', data.items[0].volumeInfo.imageLinks.thumbnail);
+                        $('#title').text(data.items[0].volumeInfo.title);
+                        $('#author').text(data.items[0].volumeInfo.authors[0]);
+                        $('#published').text(data.items[0].volumeInfo.publishedDate);
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus, errorThrown);
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <h1>Welcome to my website</h1>
     <p>This is a simple Flask website.</p>
+
+    <form>
+        <label for="author">Enter an author name:</label>
+        <input type="text" id="author" name="author">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
