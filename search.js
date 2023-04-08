@@ -9,7 +9,6 @@ function searchKeywords(keyword) {
     resp = urlopen(api + removeSpaces(keyword))
     // parse JSON into Python as a dictionary
     book_data = json.load(resp)
-    jsonWrite(book_data)
     return book_data
 }
 
@@ -20,7 +19,6 @@ function searchAuthor(author) {
     resp = urlopen(api + removeSpaces(author))
     // parse JSON into Python as a dictionary
     book_data = json.load(resp)
-    jsonWrite(book_data)
     return book_data
 }
 
@@ -31,7 +29,6 @@ function searchGenre(subject) {
     resp = urlopen(api + removeSpaces(subject))
     // parse JSON into Python as a dictionary
     book_data = json.load(resp)
-    jsonWrite(book_data)
     return book_data
 }
 
