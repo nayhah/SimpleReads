@@ -1,5 +1,5 @@
 # SimpleReads
-SimpleRead is a website that allows users to search for books based on author's name, genre, and keyword, and generates 5 books according to those inputs. It also generates 5 New York Times best sellers based on age group (also user input). If the user searches by author's name, it generates a quote from that author.
+SimpleRead is a website that allows users to search for books based on author's name, genre, and keyword, and generates 5 books according to those inputs. It also generates 5 New York Times best sellers based on age group up to 18 (also user input). If the user searches by author's name, it generates a quote from that author.
 
 Usage
 To use SimpleRead, follow these steps:
