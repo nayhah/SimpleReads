@@ -1,3 +1,4 @@
+
 function removeSpaces(input) {
     return input.replaceAll(" ", "%20");
 }
@@ -76,6 +77,7 @@ const list1 = document.querySelector("#searchResults");
 
                 li.appendChild(a);
                 list2.appendChild(li);
+                generateQuote(author);
             }
         }
       });
