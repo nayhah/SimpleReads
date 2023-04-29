@@ -11,7 +11,8 @@ You can click on the generated books to go to the website where you can purchase
 Enter an age group in the textbox to generate 5 New York Times best sellers.
 If you searched by author's name, a quote from that author will also be displayed.
 
-User Stories
+User Stories:
+Some of the highlighted tasks include being able to search in multiple ways, quote generator, and books by age generator.
 https://tasks.office.com/Clemson.onmicrosoft.com/Home/PlanViews/y0M3GnMYx0y3oETY_-tl-WQAFOhz?Type=PlanLink&Channel=Link&CreatedTime=638183340223190000
 
 Prerequisites
