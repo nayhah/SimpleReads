@@ -6,7 +6,8 @@ To use SimpleRead, follow these steps:
 
 Enter the author's name, genre, and keyword in the search fields provided.
 Click on the "Search" button to generate the results.
-The results will be displayed in the "Search Results" section of the page.
+The results will be displayed under the "Search" button. 
+You can click on the generated books to go to the website where you can purchase the book. 
 Enter an age group in the textbox to generate 5 New York Times best sellers.
 If you searched by author's name, a quote from that author will also be displayed.
 
