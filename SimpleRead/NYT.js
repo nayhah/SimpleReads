@@ -1,6 +1,6 @@
 var url_Summary = 'https://api.nytimes.com/svc/books/v3/reviews.json?';
 var url_Age_Group = 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?';
-var apiKey = '&api-key=JVL7IxYLezwxfzydNdh2UWXqBl3XHCxu';
+var apiKey = 'API#1';
 
 /* Haruki Murakami's 1Q84*/ 
 var isbn = '9780307593313';
