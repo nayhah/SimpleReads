@@ -16,6 +16,10 @@ Before you begin using SimpleRead, make sure you have the following requirements
 A web browser that supports HTML, CSS, and JavaScript.
 Installation
 SimpleRead is a web-based application and does not require any installation. Simply open your web browser and navigate to the website URL.
+To do this in your terminal navigate to the working directory of the project. 
+Next type in the command: python3 -m http.server
+Next you can follow the link in your browser and click on the html folder titled: SimpleReadPage.html
+Have fun!
 
 Contributing
 Contributions to SimpleRead are welcome! If you'd like to contribute, please follow these steps:
