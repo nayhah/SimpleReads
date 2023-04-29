@@ -10,6 +10,9 @@ The results will be displayed in the "Search Results" section of the page.
 Enter an age group in the textbox to generate 5 New York Times best sellers.
 If you searched by author's name, a quote from that author will also be displayed.
 
+User Stories
+https://tasks.office.com/Clemson.onmicrosoft.com/Home/PlanViews/y0M3GnMYx0y3oETY_-tl-WQAFOhz?Type=PlanLink&Channel=Link&CreatedTime=638183340223190000
+
 Prerequisites
 Before you begin using SimpleRead, make sure you have the following requirements:
 
